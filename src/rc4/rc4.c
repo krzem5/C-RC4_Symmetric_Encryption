@@ -1,7 +1,3 @@
-#include <stdio.h>
-
-
-
 void rc4_encode_decode(const unsigned char* data,unsigned int data_length,const unsigned char* key,unsigned int key_length,unsigned char* out){
 	unsigned char S[256];
 	for (unsigned int i=0;i<256;i++){
